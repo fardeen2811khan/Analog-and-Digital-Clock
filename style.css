@@ -1,12 +1,14 @@
 #clockContainer{
-    position: relative;
-    margin: auto;
-    height: 25vw;
-    width: 25vw;
-    background-image: url(clock.png);
-    background-size: 100%;
+  position: relative;
+  margin: auto;
+  height: 25vw;
+  width: 25vw;
+  background-image: url(clock.png);
+  background-size: 100%;
 }
-
+body{
+  background-color: #DAE2B6;
+}
 #hour, #minute, #second{
 
     background: black;
@@ -38,7 +40,6 @@
     left: 49.25%;
     opacity: 0.8;
 
-
 }
 #dgclock{
   width: 40vw;
@@ -57,14 +58,22 @@ margin-top: 4%;
 padding-top: 2%;
 }
 .ft{
+
+  margin: auto;
+  margin-top: 2%;
+  margin-left: auto;
   color: grey;
-  font-family: cursive;
-  font-size: 1.2rem;
-  margin-left: 42%;
+  width: 40vw;
+  left: 40vw;
+
+  text-align: center;
+  text-decoration: underline;
+
 }
 .themes{
   color: grey;
 
+padding: 0%;
   font-family: cursive;
   font-size: 1.2rem;
   font-weight: bold;
@@ -81,6 +90,7 @@ padding-top: 2%;
 .theme:hover{
   cursor: pointer;
 }
+
 .theme2{
     background-color: hsl(223, 31%, 20%);
 }
